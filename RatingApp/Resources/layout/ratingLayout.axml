@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <!--android:src="@android:drawable/ic_menu_gallery"-->
+  <ImageView
+      android:src="@android:drawable/ic_menu_gallery"
+      android:layout_width="fill_parent"
+      android:layout_height="@dimen/takeImageButtonSize"
+      android:id="@+id/imageView1"
+      android:adjustViewBounds="true" />
+
+  <Button
+      android:id="@+id/GetPictureButton"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Take Picture" />
+
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:id="@+id/resultMessage"
+      android:textAlignment="center" />
+
+  <TextView
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center_horizontal"
+      android:layout_height="wrap_content"
+      android:id="@+id/resultText"
+      android:textAlignment="center" />
+</LinearLayout>
